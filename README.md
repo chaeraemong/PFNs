@@ -22,6 +22,7 @@ def get_dataset_sample():
 This way of installing allows you to use the package everywhere and still be able to edit files.
 You should use a pytorch compatible python version (oftentimes they don't support the latest version).
 ```bash
+conda create --name pfn
 git clone https://github.com/automl/PFNs.git
 cd PFNs
 pip install -e .
