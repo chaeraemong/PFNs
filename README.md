@@ -23,6 +23,7 @@ This way of installing allows you to use the package everywhere and still be abl
 You should use a pytorch compatible python version (oftentimes they don't support the latest version).
 ```bash
 conda create --name pfn
+conda activate pfn
 git clone https://github.com/automl/PFNs.git
 cd PFNs
 pip install -e .
